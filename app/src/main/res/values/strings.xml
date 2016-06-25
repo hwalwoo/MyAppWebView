@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyAppWebView</string>
+    <string name="title_activity_image_view_convert">ImageViewConvertActivity</string>
 </resources>
