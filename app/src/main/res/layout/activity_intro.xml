@@ -2,6 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
     <Button
         android:layout_width="match_parent"
@@ -18,5 +22,11 @@
         android:layout_height="wrap_content"
         android:text="이미지뷰컨버터"
         android:id="@+id/btImageViewConvert"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="리스트이미지뷰"
+            android:id="@+id/btListImage"/>
+    </LinearLayout>
 
 </RelativeLayout>
