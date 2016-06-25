@@ -23,7 +23,8 @@
             android:name=".ImageViewConvertActivity"
             android:label="@string/title_activity_image_view_convert"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ImageListActivity"></activity>
+        <activity android:name=".ImageListActivity" />
+        <activity android:name=".ImageGridActivity"></activity>
     </application>
 
 </manifest>

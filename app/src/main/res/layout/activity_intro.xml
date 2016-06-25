@@ -7,26 +7,31 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="웹뷰"
-        android:id="@+id/btWebView"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="이미지뷰"
-        android:id="@+id/btImageView"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="이미지뷰컨버터"
-        android:id="@+id/btImageViewConvert"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="웹뷰"
+            android:id="@+id/btWebView"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이미지뷰"
+            android:id="@+id/btImageView"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이미지뷰컨버터"
+            android:id="@+id/btImageViewConvert"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="리스트이미지뷰"
             android:id="@+id/btListImage"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="그리드이미지뷰"
+            android:id="@+id/btGridImage"/>
     </LinearLayout>
 
 </RelativeLayout>
